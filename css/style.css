@@ -10,14 +10,34 @@ h2:hover {
   color: yellow;
 }
 
-li:first-child {
+/* li:first-child {
   color: steelblue;
+} */
+
+td:only-child {
+  color: purple;
 }
 
-#google-link:link {
+/* #google-link:link {
   color: blue;
 }
 
 #google-link:visited {
   color: red;
+} */
+
+h2 + a {
+  color: red;
+}
+
+textarea ~ button {
+  color: purple;
+}
+
+ul > li {
+  color: red;
+}
+
+ul li {
+  color: green;
 }
