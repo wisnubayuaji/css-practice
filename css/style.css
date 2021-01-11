@@ -4,6 +4,8 @@ body {
     rgb(204, 229, 255),
     rgba(204, 229, 255, 0.4)
   );
+  text-transform: uppercase;
+  text-align: justify;
 }
 
 #title {
@@ -16,7 +18,11 @@ body {
 
 #service-image {
   height: 400px;
-  width: 70%;
+  width: 70vw;
 
   background: radial-gradient(circle, red 20%, green 40%, blue 55%);
+}
+
+.link {
+  text-decoration: underline;
 }
