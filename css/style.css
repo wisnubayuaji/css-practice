@@ -33,3 +33,8 @@ body {
 .italics {
   font-style: italic;
 }
+
+#about-us-image {
+  height: 180px;
+  width: 60%;
+}
