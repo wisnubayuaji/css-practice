@@ -38,4 +38,7 @@ body {
 #about-us-image {
   height: 180px;
   width: 60%;
+
+  border: 10px solid rgb(28, 28, 79);
+  margin: 80px 40px;
 }
